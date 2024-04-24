@@ -1,0 +1,7 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://d1ajssi1mj2uc"]
+
+[resource]
+resource_name = "BleuMarine.003"
+cull_mode = 2
+albedo_color = Color(0.0622556, 0.0914602, 0.190178, 1)
+roughness = 0.0764706

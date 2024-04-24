@@ -1,0 +1,286 @@
+[gd_scene load_steps=16 format=3 uid="uid://bvg11fvcqmqjr"]
+
+[ext_resource type="Texture2D" uid="uid://cl4sp355cxrgs" path="res://assets/textures/buildings-images/info.png" id="1_1rbor"]
+[ext_resource type="Texture2D" uid="uid://c0b08p51npq4w" path="res://assets/textures/icons8-coin-48.png" id="1_wjae8"]
+[ext_resource type="Texture2D" uid="uid://c3a1tiwc3t37n" path="res://assets/textures/icons8-people-48.png" id="2_78v8w"]
+[ext_resource type="Texture2D" uid="uid://bsyjh7oi38v3l" path="res://assets/textures/buildings-images/clean.png" id="2_bkryk"]
+[ext_resource type="FontFile" uid="uid://drew3cjc4hhaw" path="res://assets/textures/PressStart2P-Regular.ttf" id="3_djep0"]
+[ext_resource type="Texture2D" uid="uid://ch1y85hepibmf" path="res://assets/textures/buildings-images/repair.png" id="3_g8vle"]
+[ext_resource type="Texture2D" uid="uid://d2vifg3g6dquy" path="res://assets/textures/buildings-images/wc.png" id="4_nlaxc"]
+[ext_resource type="Texture2D" uid="uid://dnb6cfjx10ykp" path="res://assets/textures/buildings-images/manege5.png" id="5_t30k0"]
+[ext_resource type="Texture2D" uid="uid://bu0b7lhm8pif" path="res://assets/textures/buildings-images/manege6.png" id="6_t7kkw"]
+[ext_resource type="Texture2D" uid="uid://wlgjhuljytet" path="res://assets/textures/buildings-images/manege3.png" id="7_e1ba6"]
+[ext_resource type="Texture2D" uid="uid://u1qbp10aqcq6" path="res://assets/textures/buildings-images/manege4.png" id="8_r3l1k"]
+[ext_resource type="Texture2D" uid="uid://p5po0arf660" path="res://assets/textures/buildings-images/manege2.png" id="9_vc00m"]
+
+[sub_resource type="Theme" id="Theme_s1vx5"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p8qae"]
+content_margin_top = 5.0
+bg_color = Color(0.165405, 0.161927, 0.220801, 0.666667)
+border_color = Color(0.103744, 0.103744, 0.103743, 1)
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+expand_margin_top = 5.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_on1ua"]
+
+[node name="GUI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+mouse_default_cursor_shape = 2
+
+[node name="Panel" type="Panel" parent="."]
+visible = false
+modulate = Color(0.301961, 0.223529, 1, 0.996078)
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.111
+offset_bottom = -8.92001
+theme = SubResource("Theme_s1vx5")
+
+[node name="PanelBottom" type="Panel" parent="."]
+modulate = Color(0.301961, 0.223529, 1, 0.996078)
+layout_mode = 1
+anchors_preset = -1
+anchor_top = 0.793
+anchor_right = 1.002
+anchor_bottom = 1.006
+offset_top = 0.039978
+offset_right = -1.56006
+offset_bottom = -1.32001
+grow_horizontal = 2
+grow_vertical = 0
+theme = SubResource("Theme_s1vx5")
+theme_override_styles/panel = SubResource("StyleBoxFlat_p8qae")
+
+[node name="Button" type="Button" parent="PanelBottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.012
+anchor_top = 0.086
+anchor_right = 0.106
+anchor_bottom = 0.875
+offset_left = 0.628
+offset_top = -0.0720005
+offset_right = 0.213989
+offset_bottom = -1.52588e-05
+theme_override_styles/normal = SubResource("StyleBoxFlat_on1ua")
+icon = ExtResource("1_1rbor")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button2" type="Button" parent="PanelBottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.114
+anchor_top = 0.086
+anchor_right = 0.208
+anchor_bottom = 0.875
+offset_left = -0.0340118
+offset_top = -0.0720005
+offset_right = -0.447998
+offset_bottom = -1.52588e-05
+theme_override_styles/normal = SubResource("StyleBoxFlat_on1ua")
+icon = ExtResource("2_bkryk")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button3" type="Button" parent="PanelBottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.215
+anchor_top = 0.086
+anchor_right = 0.309
+anchor_bottom = 0.875
+offset_left = 0.584991
+offset_top = -0.0720005
+offset_right = 0.17099
+offset_bottom = -1.52588e-05
+theme_override_styles/normal = SubResource("StyleBoxFlat_on1ua")
+icon = ExtResource("3_g8vle")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button4" type="Button" parent="PanelBottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.317
+anchor_top = 0.086
+anchor_right = 0.411
+anchor_bottom = 0.875
+offset_left = -0.0769958
+offset_top = -0.0720005
+offset_right = -0.491028
+offset_bottom = -1.52588e-05
+theme_override_styles/normal = SubResource("StyleBoxFlat_on1ua")
+icon = ExtResource("4_nlaxc")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button5" type="Button" parent="PanelBottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.419
+anchor_top = 0.086
+anchor_right = 0.513
+anchor_bottom = 0.875
+offset_left = 0.260986
+offset_top = -0.0720005
+offset_right = -0.153015
+offset_bottom = -1.52588e-05
+theme_override_styles/normal = SubResource("StyleBoxFlat_on1ua")
+icon = ExtResource("5_t30k0")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button6" type="Button" parent="PanelBottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.521
+anchor_top = 0.086
+anchor_right = 0.614
+anchor_bottom = 0.875
+offset_left = -0.401062
+offset_top = -0.0720005
+offset_right = 0.465942
+offset_bottom = -1.52588e-05
+theme_override_styles/normal = SubResource("StyleBoxFlat_on1ua")
+icon = ExtResource("6_t7kkw")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button7" type="Button" parent="PanelBottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.622
+anchor_top = 0.086
+anchor_right = 0.716
+anchor_bottom = 0.875
+offset_left = 0.217957
+offset_top = -0.0720005
+offset_right = -0.196045
+offset_bottom = -1.52588e-05
+theme_override_styles/normal = SubResource("StyleBoxFlat_on1ua")
+icon = ExtResource("7_e1ba6")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button8" type="Button" parent="PanelBottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.724
+anchor_top = 0.086
+anchor_right = 0.817
+anchor_bottom = 0.875
+offset_left = -0.444031
+offset_top = -0.0720005
+offset_right = 0.422974
+offset_bottom = -1.52588e-05
+theme_override_styles/normal = SubResource("StyleBoxFlat_on1ua")
+icon = ExtResource("8_r3l1k")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button9" type="Button" parent="PanelBottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.826
+anchor_top = 0.086
+anchor_right = 0.92
+anchor_bottom = 0.875
+offset_left = -0.106079
+offset_top = -0.0720005
+offset_right = -0.52002
+offset_bottom = -1.52588e-05
+theme_override_styles/normal = SubResource("StyleBoxFlat_on1ua")
+icon = ExtResource("9_vc00m")
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button10" type="Button" parent="PanelBottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.946
+anchor_top = 0.086
+anchor_right = 0.976
+anchor_bottom = 0.441
+offset_left = 0.17395
+offset_top = -0.0720005
+offset_right = -0.256104
+offset_bottom = -0.0320053
+theme_override_fonts/font = ExtResource("3_djep0")
+theme_override_styles/normal = SubResource("StyleBoxFlat_on1ua")
+text = "↑"
+icon_alignment = 1
+expand_icon = true
+
+[node name="Button11" type="Button" parent="PanelBottom"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.946
+anchor_top = 0.5
+anchor_right = 0.975
+anchor_bottom = 0.875
+offset_left = 0.17395
+offset_top = -1.0
+offset_right = 0.0250244
+offset_bottom = -1.52588e-05
+theme_override_fonts/font = ExtResource("3_djep0")
+theme_override_styles/normal = SubResource("StyleBoxFlat_on1ua")
+text = "↓"
+icon_alignment = 1
+expand_icon = true
+
+[node name="CoinTexture" type="TextureRect" parent="."]
+layout_mode = 1
+offset_left = 14.0
+offset_top = 9.0
+offset_right = 69.0
+offset_bottom = 64.0
+texture = ExtResource("1_wjae8")
+
+[node name="PeopleTexture" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -74.0
+offset_top = 8.0
+offset_right = -19.0
+offset_bottom = 63.0
+grow_horizontal = 0
+texture = ExtResource("2_78v8w")
+
+[node name="CoinAmount" type="Label" parent="."]
+layout_mode = 1
+offset_left = 80.0
+offset_top = 19.0
+offset_right = 328.0
+offset_bottom = 57.0
+theme_override_fonts/font = ExtResource("3_djep0")
+theme_override_font_sizes/font_size = 22
+text = "100"
+vertical_alignment = 1
+
+[node name="PeopleAmount" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -335.0
+offset_top = 21.0
+offset_right = -87.0
+offset_bottom = 59.0
+grow_horizontal = 0
+theme_override_fonts/font = ExtResource("3_djep0")
+theme_override_font_sizes/font_size = 22
+text = "100"
+horizontal_alignment = 2
+vertical_alignment = 1
