@@ -19,6 +19,7 @@ config/icon="res://icon.svg"
 [autoload]
 
 BuildingsManager="*res://scripts/BuildingsManager.gd"
+PlayerData="*res://scripts/PlayerData.gd"
 
 [collada]
 

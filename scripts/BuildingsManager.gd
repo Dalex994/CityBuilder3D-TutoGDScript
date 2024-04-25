@@ -14,7 +14,8 @@ var building_sitswing = "assets/buildings/sit_swing.tscn"
 # 40*40 = 1600 fictives cases of the map grid
 var grid_data = [] 
 
-var selected_building = 2
+var selected_building = 10
+var building_price = 0
 
 func _ready():
 	for i in range(1600):
@@ -39,10 +40,13 @@ func get_selected_building():
 		return building_circus
 	if selected_building == 9:
 		return building_sitswing
+		
+	print(selected_building)
+
 
 func create_building(position, grid_position):
 	
-	if grid_data[grid_position] != 1:
+	if PlayerData.money >= building_price and grid_data[grid_position] != 1:
 		# Building selected
 		print("Nothing on... Built")	#DEBUG
 		var building_res = load(get_selected_building())
@@ -54,5 +58,8 @@ func create_building(position, grid_position):
 		grid_data[grid_position - 1] = 1
 		grid_data[grid_position + 40] = 1 
 		grid_data[grid_position - 40] = 1	#TODO: Improve this ugly but working code 
+		
+		PlayerData.money -= building_price
+		PlayerData.set_money()
 	else:
 		print("Occupied") #DEBUG

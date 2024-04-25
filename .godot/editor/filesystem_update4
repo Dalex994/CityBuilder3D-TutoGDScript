@@ -6,3 +6,4 @@ res://assets/materials/rock_02.tres
 res://scripts/BuildingsManager.gd
 res://scenes/game.tscn
 res://scripts/GUI.gd
+res://scripts/PlayerData.gd
