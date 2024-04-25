@@ -1,6 +1,8 @@
+res://scenes/gui.tscn
 res://assets/materials/env.tres
 res://assets/materials/marker.tres
 res://assets/materials/rock_01.tres
 res://assets/materials/rock_02.tres
-res://scenes/gui.tscn
+res://scripts/BuildingsManager.gd
 res://scenes/game.tscn
+res://scripts/GUI.gd

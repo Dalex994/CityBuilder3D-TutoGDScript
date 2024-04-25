@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1713987373
+::res://::1714045815
 icon.svg::CompressedTexture2D::4340877670542387916::1713620328::1713620337::1::::<><>::
+README.md::TextFile::-1::1713993242::0::1::::<><>::
 ::res://assets/::1713644622
 ::res://assets/buildings/::1713733414
 balloon_store.tscn::PackedScene::6749601175940275462::1713730548::0::1::::<><>::
@@ -25,21 +26,21 @@ swing.tscn::PackedScene::5421960793592679141::1713730677::0::1::::<><>::
 swing_3.tscn::PackedScene::7330922930388432866::1713730684::0::1::::<><>::
 tower.tscn::PackedScene::8048764165483630102::1713730692::0::1::::<><>::
 wheel.tscn::PackedScene::8385036006499037926::1713730698::0::1::::<><>::
-::res://assets/materials/::1713988206
+::res://assets/materials/::1714045931
 Black.003.tres::StandardMaterial3D::1994028207418054169::1713652082::0::1::::<><>::
 BleuMarine.003.tres::StandardMaterial3D::8984751541869812062::1713652082::0::1::::<><>::
 BlueWindow.003.tres::StandardMaterial3D::4935349776683988100::1713652082::0::1::::<><>::
 DarkWood.003.tres::StandardMaterial3D::652866770740374613::1713652082::0::1::::<><>::
-env.tres::Environment::7546739436416801834::1713988205::0::1::::<><>::
-marker.tres::StandardMaterial3D::9107101900475490448::1713988206::0::1::::<><>::
+env.tres::Environment::7546739436416801834::1714045930::0::1::::<><>::
+marker.tres::StandardMaterial3D::9107101900475490448::1714045930::0::1::::<><>::
 Material.004.tres::StandardMaterial3D::4646239537268697934::1713652082::0::1::::<><>::
 Metal.003.tres::StandardMaterial3D::1896461762003713897::1713652082::0::1::::<><>::
 PlasticBlue.003.tres::StandardMaterial3D::5021292952654747702::1713652082::0::1::::<><>::
 PlasticGreen.003.tres::StandardMaterial3D::3419483313030603199::1713652082::0::1::::<><>::
 PlasticRed.003.tres::StandardMaterial3D::9063582762982447172::1713652081::0::1::::<><>::
 PlasticYellow.003.tres::StandardMaterial3D::5803392352898582346::1713652081::0::1::::<><>::
-rock_01.tres::StandardMaterial3D::3852973463355892128::1713988206::0::1::::<><>::
-rock_02.tres::StandardMaterial3D::2303380304430209901::1713988206::0::1::::<><>::
+rock_01.tres::StandardMaterial3D::3852973463355892128::1714045931::0::1::::<><>::
+rock_02.tres::StandardMaterial3D::2303380304430209901::1714045931::0::1::::<><>::
 Toit.003.tres::StandardMaterial3D::304067074743554858::1713652082::0::1::::<><>::
 White.003.tres::StandardMaterial3D::2768268106802001974::1713652081::0::1::::<><>::
 Wood.003.tres::StandardMaterial3D::4505844166589311416::1713652082::0::1::::<><>::
@@ -55,7 +56,7 @@ tree_2.tscn::PackedScene::1822717133107404984::1713818110::0::1::::<><>::
 ::res://assets/models/imported/::1713818195
 Buildings.dae::PackedScene::7254606917173309614::1713645520::1713818190::1::::<><>::uid://d2ep5b122hh4g::::res://assets/materials/PlasticRed.003.tres<>uid://coxha2625yfla::::res://assets/materials/PlasticYellow.003.tres<>uid://bfo78a12cek4u::::res://assets/materials/White.003.tres<>uid://d1ajssi1mj2uc::::res://assets/materials/BleuMarine.003.tres<>uid://b5gwuh7jel2au::::res://assets/materials/Wood.003.tres<>uid://cdsl7xjll5ube::::res://assets/materials/PlasticBlue.003.tres<>uid://cckyqwfpyxo8s::::res://assets/materials/BlueWindow.003.tres<>uid://jkivddocdatx::::res://assets/materials/DarkWood.003.tres<>uid://2awpib3rwu2d::::res://assets/materials/Metal.003.tres<>uid://b7gw5evjyxebe::::res://assets/materials/Material.004.tres<>uid://3n6mal7aywjp::::res://assets/materials/Black.003.tres<>uid://elj678n00n3g::::res://assets/materials/Toit.003.tres<>uid://boyonjrcta3a6::::res://assets/materials/PlasticGreen.003.tres
 NatureFreePack1.blend::PackedScene::4291360666884248043::1713817940::1713818195::1::::<><>::
-::res://assets/textures/::1713988931
+::res://assets/textures/::1713988942
 grass_01_ambient_occlusion_2k.png::CompressedTexture2D::7314880710609755536::1713627448::1713628622::1::::<><>::
 grass_01_color_2k.png::CompressedTexture2D::3334301414945488014::1713626804::1713628630::1::::<><>::
 grass_01_height_2k.png::CompressedTexture2D::502351909246898592::1713627442::1713628630::1::::<><>::
@@ -83,10 +84,10 @@ repair.png::CompressedTexture2D::5319354820199477649::1713987322::1713987375::1:
 soda.png::CompressedTexture2D::8339449013860581471::1713987322::1713987375::1::::<><>::
 tir.png::CompressedTexture2D::5249614160630972658::1713987322::1713987375::1::::<><>::
 wc.png::CompressedTexture2D::9098207785761889608::1713987322::1713987375::1::::<><>::
-::res://scenes/::1713988205
+::res://scenes/::1714045930
 buildings.tscn::PackedScene::3239083949345414979::1713818188::0::1::::<><>::uid://dbmgk0kvthbt3::::res://assets/models/imported/Buildings.dae
-game.tscn::PackedScene::4554380003714445996::1713823084::0::1::::<><>::uid://dfrxxwqwdsilu::::res://assets/materials/env.tres<>uid://bnrfpsqc32sos::::res://assets/textures/grass_01_color_2k.png<>uid://dchnatf54ncro::::res://assets/textures/grass_01_ambient_occlusion_2k.png<>uid://hflwr55o4753::::res://assets/textures/grass_01_height_2k.png<>uid://bs6p5vfwreold::::res://assets/textures/grass_01_normal_gl_2k.png<>uid://dkgtdka5ri7yo::::res://assets/textures/grass_01_roughness_2k.png<>uid://d20svxhumpa53::::res://assets/materials/marker.tres<>res://scripts/HandleMouse.gd<>res://scripts/Camera3D.gd<>uid://btdulq6xaxrko::::res://assets/models/pp_forest_mountain_moss_02.tscn<>uid://cxqtkbuy3137a::::res://assets/models/pp_rock_moss_grown_11.tscn<>uid://5bktjryxy8wg::::res://assets/models/pp_rock_moss_grown_11_1.tscn<>uid://w8kq76h4umva::::res://assets/models/pp_forest_mountain_moss_01.tscn<>uid://b0drhbfi7w57::::res://assets/models/tree_1.tscn<>uid://0765c6k708ky::::res://assets/models/tree_2.tscn<>res://scripts/Camera Support.gd
-gui.tscn::PackedScene::3874398034239981283::1713988205::0::1::::<><>::
+game.tscn::PackedScene::4554380003714445996::1713992508::0::1::::<><>::uid://dfrxxwqwdsilu::::res://assets/materials/env.tres<>uid://bnrfpsqc32sos::::res://assets/textures/grass_01_color_2k.png<>uid://dchnatf54ncro::::res://assets/textures/grass_01_ambient_occlusion_2k.png<>uid://hflwr55o4753::::res://assets/textures/grass_01_height_2k.png<>uid://bs6p5vfwreold::::res://assets/textures/grass_01_normal_gl_2k.png<>uid://dkgtdka5ri7yo::::res://assets/textures/grass_01_roughness_2k.png<>uid://d20svxhumpa53::::res://assets/materials/marker.tres<>res://scripts/HandleMouse.gd<>res://scripts/Camera3D.gd<>uid://btdulq6xaxrko::::res://assets/models/pp_forest_mountain_moss_02.tscn<>uid://cxqtkbuy3137a::::res://assets/models/pp_rock_moss_grown_11.tscn<>uid://5bktjryxy8wg::::res://assets/models/pp_rock_moss_grown_11_1.tscn<>uid://w8kq76h4umva::::res://assets/models/pp_forest_mountain_moss_01.tscn<>uid://b0drhbfi7w57::::res://assets/models/tree_1.tscn<>uid://0765c6k708ky::::res://assets/models/tree_2.tscn<>res://scripts/Camera Support.gd<>uid://bvg11fvcqmqjr::::res://scenes/gui.tscn
+gui.tscn::PackedScene::3874398034239981283::1714045930::0::1::::<><>::uid://cl4sp355cxrgs::::res://assets/textures/buildings-images/info.png<>uid://c0b08p51npq4w::::res://assets/textures/icons8-coin-48.png<>uid://c3a1tiwc3t37n::::res://assets/textures/icons8-people-48.png<>uid://bsyjh7oi38v3l::::res://assets/textures/buildings-images/clean.png<>uid://drew3cjc4hhaw::::res://assets/textures/PressStart2P-Regular.ttf<>uid://ch1y85hepibmf::::res://assets/textures/buildings-images/repair.png<>uid://d2vifg3g6dquy::::res://assets/textures/buildings-images/wc.png<>uid://dnb6cfjx10ykp::::res://assets/textures/buildings-images/manege5.png<>uid://bu0b7lhm8pif::::res://assets/textures/buildings-images/manege6.png<>uid://wlgjhuljytet::::res://assets/textures/buildings-images/manege3.png<>uid://u1qbp10aqcq6::::res://assets/textures/buildings-images/manege4.png<>uid://p5po0arf660::::res://assets/textures/buildings-images/manege2.png
 ::res://scripts/::1713822863
 BuildingsManager.gd::GDScript::-1::1713822812::0::1::::<>Node<>::
 Camera3D.gd::GDScript::-1::1713820790::0::1::::<>Camera3D<>::
