@@ -268,7 +268,6 @@ offset_right = 328.0
 offset_bottom = 57.0
 theme_override_fonts/font = ExtResource("3_djep0")
 theme_override_font_sizes/font_size = 22
-text = "100"
 vertical_alignment = 1
 
 [node name="PeopleAmount" type="Label" parent="."]
@@ -283,7 +282,6 @@ offset_bottom = 59.0
 grow_horizontal = 0
 theme_override_fonts/font = ExtResource("3_djep0")
 theme_override_font_sizes/font_size = 22
-text = "100"
 horizontal_alignment = 2
 vertical_alignment = 1
 
@@ -296,3 +294,4 @@ vertical_alignment = 1
 [connection signal="pressed" from="PanelBottom/Button7" to="." method="_on_button_7_pressed"]
 [connection signal="pressed" from="PanelBottom/Button8" to="." method="_on_button_8_pressed"]
 [connection signal="pressed" from="PanelBottom/Button9" to="." method="_on_button_9_pressed"]
+[connection signal="ready" from="CoinAmount" to="." method="_on_coin_amount_ready"]

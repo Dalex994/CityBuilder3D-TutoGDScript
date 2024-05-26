@@ -20,6 +20,8 @@ config/icon="res://icon.svg"
 
 BuildingsManager="*res://scripts/BuildingsManager.gd"
 PlayerData="*res://scripts/PlayerData.gd"
+GUI="*res://scenes/gui.tscn"
+ParcData="*res://scripts/ParcData.gd"
 
 [collada]
 

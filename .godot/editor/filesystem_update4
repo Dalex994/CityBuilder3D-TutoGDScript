@@ -1,9 +1,12 @@
-res://scenes/gui.tscn
+res://assets/buildings/swing_3.tscn
 res://assets/materials/env.tres
 res://assets/materials/marker.tres
 res://assets/materials/rock_01.tres
 res://assets/materials/rock_02.tres
-res://scripts/BuildingsManager.gd
+res://scripts/ParcData.gd
 res://scenes/game.tscn
+res://scripts/BuildingsManager.gd
+res://scenes/gui.tscn
 res://scripts/GUI.gd
-res://scripts/PlayerData.gd
+res://scripts/Visitor.gd
+res://scenes/visitor.tscn

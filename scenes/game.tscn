@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=3 uid="uid://b55f8dc6u0q5i"]
+[gd_scene load_steps=26 format=3 uid="uid://b55f8dc6u0q5i"]
 
 [ext_resource type="Environment" uid="uid://dfrxxwqwdsilu" path="res://assets/materials/env.tres" id="1_6ib77"]
 [ext_resource type="Texture2D" uid="uid://bnrfpsqc32sos" path="res://assets/textures/grass_01_color_2k.png" id="1_xiue2"]
@@ -17,6 +17,8 @@
 [ext_resource type="PackedScene" uid="uid://0765c6k708ky" path="res://assets/models/tree_2.tscn" id="13_x13jg"]
 [ext_resource type="Script" path="res://scripts/Camera Support.gd" id="15_bxlvd"]
 [ext_resource type="PackedScene" uid="uid://bvg11fvcqmqjr" path="res://scenes/gui.tscn" id="17_0440e"]
+[ext_resource type="PackedScene" uid="uid://ck2q36gdask6x" path="res://assets/buildings/building_info.tscn" id="18_kojbf"]
+[ext_resource type="PackedScene" uid="uid://7o7p6rxvb5te" path="res://scenes/visitor.tscn" id="19_401g0"]
 
 [sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_ojdmy"]
 dof_blur_far_distance = 21.5
@@ -374,5 +376,10 @@ attributes = SubResource("CameraAttributesPractical_ydhj5")
 script = ExtResource("8_d4wel")
 
 [node name="GUI" parent="." instance=ExtResource("17_0440e")]
+
+[node name="BuildingInfo" parent="." instance=ExtResource("18_kojbf")]
+transform = Transform3D(0.0215458, 0, 0, 0, 0.309614, 0, 0, 0, 0.0215458, 0, 0, -9)
+
+[node name="Visitor" parent="." instance=ExtResource("19_401g0")]
 
 [connection signal="input_event" from="Grid/StaticBody3D" to="Grid/StaticBody3D" method="_on_input_event"]

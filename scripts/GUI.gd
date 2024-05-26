@@ -1,5 +1,13 @@
 extends Control
 
+# call on ready the money amount to display it on screen as soon as it loads
+@onready var coin_amount = $CoinAmount
+@onready var people_amount = $PeopleAmount
+
+
+func _ready():
+	PlayerData.set_money()
+	ParcData.set_people()
 
 # building selection
 func _on_button_pressed():
@@ -37,3 +45,7 @@ func _on_button_8_pressed():
 func _on_button_9_pressed():
 	BuildingsManager.selected_building = 9
 	BuildingsManager.building_price = 30
+
+
+
+
